@@ -2,4 +2,6 @@
 *.idr~
 .swp.*
 
+depends/
 build/
+.build/

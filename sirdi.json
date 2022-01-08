@@ -1,0 +1,6 @@
+[{ "deps": []
+ , "modules": [ "Data.SnocVect"
+              , "Data.SnocVect.Elem"
+              ]
+ , "name": "snocvect"
+}]
