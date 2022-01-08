@@ -1,0 +1,11 @@
+package snocvect
+version = 0.1.0
+authors = "Mathew Polzin"
+license = "MIT"
+
+-- depends = contrib
+
+modules = Data.SnocVect
+        , Data.SnocVect.Elem
+
+sourcedir = "src"
