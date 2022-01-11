@@ -1,6 +1,16 @@
-[{ "deps": []
- , "modules": [ "Data.SnocVect"
-              , "Data.SnocVect.Elem"
-              ]
- , "name": "snocvect"
-}]
+[
+  {
+    "name": "snocvect",
+    "version": "0.1.0",
+    "deps": [],
+    "modules": [
+      "Data.SnocVect",
+      "Data.SnocVect.Elem"
+    ],
+    "passthru": {
+      "authors": "Mathew Polzin",
+      "license": "MIT",
+      "sourceloc": "https://github.com/mattpolzin/idris-snocvect"
+    }
+  }
+]
