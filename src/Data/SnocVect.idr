@@ -2,7 +2,6 @@ module Data.SnocVect
 
 import Data.Vect
 
-%hide Data.Vect.elem
 %hide Prelude.Types.elem
 
 %default total
