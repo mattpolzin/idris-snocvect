@@ -1,7 +1,7 @@
 package snocvect
 sourcedir = "src"
 modules = Data.SnocVect, Data.SnocVect.Elem
-version = 0.1.0
+version = 0.2.0
 authors = "Mathew Polzin"
 license = "MIT"
 sourceloc = "https://github.com/mattpolzin/idris-snocvect"
