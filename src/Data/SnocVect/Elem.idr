@@ -19,8 +19,8 @@ neitherHereNorThere : DecEq a => {0 x,y : a} ->
                       Not (x = y) ->
                       Not (Elem sy x) ->
                       Not (Elem (sy :< y) x)
-neitherHereNorThere Refl _ Here impossible
-neitherHereNorThere _ g (There z) = g z
+neitherHereNorThere _ notThere (There z) = notThere z
+neitherHereNorThere notHere _ Here = notHere Refl
 
 export
 isElem : DecEq a => (x : a) -> (sx : SnocVect k a) -> Dec (Elem sx x)
